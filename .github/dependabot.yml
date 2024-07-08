@@ -11,14 +11,14 @@ updates:
    schedule:
      interval: weekly
 
-  - package-ecosystem: "pip"
-    directory: "/"
-    schedule:
-      interval: weekly
-    file-types:
-      - "requirements"
+- package-ecosystem: "pip"
+  directory: "/"
+  schedule:
+    interval: weekly
+  file-types:
+    - "requirements"
 
-  - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: weekly
+- package-ecosystem: "docker"
+  directory: "/"
+  schedule:
+    interval: weekly
